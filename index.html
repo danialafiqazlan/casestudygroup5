@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>e-Wallet Management System</title>
+  </head>
+  <body>
+
+    <h1>e-Wallet Management System</h1>
+    <h2>Group 5 | Section 2</h2>
+
+    <br><br>
+
+    <fieldset>
+      <h3>Make Payment</h3>
+      <form class="" action="form.php" method="post">
+        <label for="">User: <select class="" name="users">
+          <option>Select user</option>
+          <option>Afiq</option>
+          <option>Shafiq</option>
+          <option>Ibad</option>
+          <option>Alifah</option>
+          <option>Muzafar</option>
+        </select></label><br><br>
+        <label for="">Amount to Pay(RM): <input type="number" name="amtToPay" value=""></label><br><br>
+        <label for="">Date: <input type="date" name="paymentDate" value=""></label><br><br>
+        <label for="">Time: <input type="time" name="paymentTime" value=""></label><br><br>
+        <button type="submit" name="btn1">Pay</button>
+        <button type="reset" name="reset">Clear</button>
+      </form>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+      <h3>e-Wallet Top-up</h3>
+      <form class="" action="form.php" method="post">
+        <label for="">User: <select class="" name="users">
+          <option>Select user</option>
+          <option>Afiq</option>
+          <option>Shafiq</option>
+          <option>Ibad</option>
+          <option>Alifah</option>
+          <option>Muzafar</option>
+        </select></label><br><br>
+        <label for="">Top-up Amount(RM): <input type="number" name="topUpAmt" value=""></label><br><br>
+        <label for="">Payment Method: <select name="paymentMethod">
+          <option selected>Select One</option>
+          <option>Online Banking</option>
+          <option>Redeem Code</option>
+          <option>Credit Card</option>
+        </select></label><br><br>
+        <label for="">Date: <input type="date" name="paymentDate" value=""></label><br><br>
+        <button type="submit" name="btn2">Top-Up</button>
+        <button type="reset" name="reset">Clear</button>
+      </form>
+    </fieldset>
+
+
+  </body>
+</html>
